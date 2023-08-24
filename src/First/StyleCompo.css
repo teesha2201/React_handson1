@@ -1,0 +1,64 @@
+.divhead h1{
+    color:black;
+   
+  }
+  
+  h1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-shadow: 2px 3px 2px rgb(89, 133, 228);
+      position: relative;
+    
+    }
+    .functionblock , .classblock{
+      width:35vw;
+      border:2px solid black;
+      background-image:linear-gradient(45deg,rgb(185, 185, 48), lightgray ,rgb(216, 115, 216), lightcoral) ;
+    }
+    .functionblock{
+      position: absolute;
+      top:40vh;
+      left:10vw;
+     
+    }
+    .classblock{
+      position: absolute;
+      top:40vh;
+      right:10vw;
+      
+    }
+    div h1{
+      color:rgb(226, 33, 168)
+    }
+    /* DisplayData.js styling*/
+  .divofdisplaydata button , .buttonofdisplayclass button{
+    width:18vw;
+    height: 8vh;
+    background-color: rgba(192, 205, 194, 0.498);
+    border-radius: 24px;
+    font-size: 18px;
+    color:rgb(22, 90, 92);
+    border: 4px solid rgb(192, 147, 147);
+   
+  }
+  .divofdisplaydata button{
+    position: absolute;
+    top:13vh;
+    left:30vw;
+  }
+  .divofdisplaydata button:hover
+  {
+    background-color: rgb(114, 161, 181);
+  }
+  .buttonofdisplayclass button{
+    position: absolute;
+    top:13vh;
+    right:30vw;
+  }
+  
+  .buttonofdisplayclass button:hover
+  {
+    
+    background-color: rgb(114, 161, 181);
+  }
